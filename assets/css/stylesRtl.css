@@ -1,0 +1,133 @@
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  margin: 0;
+  overflow-x: hidden; 
+  position: relative;
+}
+h4, .h4 {
+  font-family: Archivo;
+  line-height: 36px;
+  font-weight: 500;
+  font-style: normal;
+  color: #191919;
+  font-size: 26px;
+}
+h3, .h3 {
+  font-family: Archivo;
+  line-height: 44px;
+  font-weight: 500;
+  font-style: normal;
+  color: #191919;
+  font-size: 34px;
+}
+h2, .h2 {
+  font-family: Archivo;
+  line-height: 64px;
+  font-weight: 600;
+  font-style: normal;
+  color: #191919;
+  font-size: 54px;
+}
+@media (max-width: 992px) {
+  h2 {
+      font-size: 44px;
+      line-height: 54px;
+  }
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* a:focus, a:hover {
+  color: var(--themeht-primary-color);
+  text-decoration: none !important;
+} */
+
+a, a:visited {
+  text-decoration: none;
+  color: var(--themeht-text-color);
+}
+.nav-item a:hover{
+  color: var(--themeht-primary-color2);
+}
+
+
+ul {
+  list-style: none;
+  /* Color highlighting when pressed on mobile devices */
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    direction: rtl;
+  }
+  
+  .rtl {
+    text-align: right;
+  }
+  .dark-footer i {
+    color: var(--themeht-primary-color2) !important;
+    margin-left: 10px;
+}
+.themeht-btn i {
+    margin-right: 10px;
+}
+
+.contact-title .section-title {
+  float: right;
+}
+@media screen and (max-width: 425px) {
+  .theme-title h2 {
+      font-size: 37px !important;
+      line-height: 47px !important;
+      text-align: right !important;
+  }
+}
+
+
+.themeht-post-content {
+  padding-right: 1rem;
+}
+
+
+
+.nav {
+  
+  padding: 12px 20px;
+  
+}
+
+
+@media (max-width:320px) {
+  .theme-title h6{
+    text-align: right !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .testi .theme-title h2 {
+      font-size: 37px !important;
+      line-height: 47px !important;
+      text-align: right !important;
+      padding-top: 12rem;
+  }
+}
